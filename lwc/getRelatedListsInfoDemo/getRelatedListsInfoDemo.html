@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Lightning All related lists info">
+    
+<template if:true={allRelatedListsData}>
+   <template for:each={allRelatedListsData} for:item="eachRelatedListName">
+      <p key={eachRelatedListName.label}>{eachRelatedListName.label}</p>
+   </template>
+
+</template>
+
+
+</lightning-card>
+
+</template>

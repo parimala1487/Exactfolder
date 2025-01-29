@@ -1,0 +1,17 @@
+<template>
+    
+    <lightning-card title="Delete Contact Based on Task">
+
+        <template if:true={hasData}>
+    <lightning-button label="Delete" onclick={handleDelete}></lightning-button>
+</template>
+<template if:false={hasData}>
+    <p>There are No Activities performed on this object</p>
+</template>
+
+
+
+
+    </lightning-card>
+
+</template>

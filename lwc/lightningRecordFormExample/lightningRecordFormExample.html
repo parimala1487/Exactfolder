@@ -1,0 +1,25 @@
+<template>
+
+    <lightning-card title="Record Form Example">
+
+        <lightning-record-form object-api-name={objectApiName}
+                               record-id={recordId}
+                            fields={displayFields}
+                            onsuccess={handleSuccess}>
+        </lightning-record-form>
+
+     </lightning-card>
+
+    <lightning-card title="Record Edit Form">
+          <lightning-record-edit-form object-api-name={objectApiName}
+                                       record-id={recordId}
+                                       fields = {editFormFields}>
+            <lightning-input-field name={rating}></lightning-input-field>
+            <lightning-input-field name={industry}></lightning-input-field>
+
+          </lightning-record-edit-form>
+
+
+    </lightning-card>
+
+   </template>

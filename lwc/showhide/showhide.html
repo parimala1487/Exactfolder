@@ -1,0 +1,11 @@
+<template>
+
+    <template if:true={showhidevar}>
+        <lightning-input type="text" label="ShowHide" name="showhide" variant="standard"></lightning-input>
+    </template>
+ 
+
+  <lightning-button variant="brand" label="Show" type="button" onclick={handleShow}></lightning-button>
+  <lightning-button variant="brand" label="Hide" type="button" onclick={handleHide}></lightning-button>
+    
+</template>

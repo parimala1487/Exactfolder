@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Create Lead Record Using UiRecordApi" icon-name="standard:lead">
+
+<lightning-input label="FirstName" value={firstName} onchange={handlefirstNameChange}></lightning-input>
+<lightning-input label="LastName" value={lastName} onchange={handleLastNameChange}></lightning-input>
+<lightning-input label="Company" value={company} onchange={handleCompanyChange}></lightning-input>
+<lightning-input label="Lead Status" value={leadStatud} onchange={handleLeadStatusChange}></lightning-input>
+<lightning-input label="Industry" value={industry} onchange={handleIndustryChange}></lightning-input>
+
+<lightning-button label="Create" variant="brand" onclick={handleCreate}></lightning-button>
+
+
+
+    </lightning-card>
+</template>

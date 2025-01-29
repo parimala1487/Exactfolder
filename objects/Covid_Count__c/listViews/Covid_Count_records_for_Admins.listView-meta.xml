@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Covid_Count_records_for_Admins</fullName>
+    <columns>NAME</columns>
+    <columns>Active_Cases__c</columns>
+    <columns>Day_Category__c</columns>
+    <columns>Entry_Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Covid Count Records For Admins</label>
+    <sharedTo>
+        <role>CEO</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,12 @@
+<template>
+
+    <lightning-icon icon-name='action:add_contact' alternative-text='add_contact' size='large' title='add_contact'></lightning-icon>
+    
+<lightning-input type="text" name="name" label="Account Name" onchange={handleAccountName} ></lightning-input>
+<lightning-input type="text" name="description" label="Description" onchange={handleDescription} ></lightning-input>
+<lightning-input type="tel" name="Phone" label="Phone No" onchange={handlePhone}></lightning-input>
+
+<lightning-button type="button" label="Create Account" variant="brand" onclick={handleClick}></lightning-button>
+
+
+</template>

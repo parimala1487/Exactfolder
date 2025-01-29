@@ -1,0 +1,14 @@
+<template>
+
+    <lightning-card title="Contacts List" icon-name="standard:contact">
+
+<lightning-button label="delete" variant="destructive" onclick={handleDelete}></lightning-button>
+<lightning-datatable key-field="Id"
+                    data = {contactsData}
+                     columns={columnsList}
+                    onrowaction={handleRowAction}>
+
+</lightning-datatable>
+
+     </lightning-card>
+</template>

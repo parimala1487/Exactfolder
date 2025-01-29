@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Refresh Apex Demo">
+        <lightning-button label="Delete Account" onclick={handleDeleteAccount}></lightning-button>
+        <lightning-datatable key-field="Id"
+                             data={accounts}
+                             columns={columnsList}
+                            max-row-selection="1"
+                            onrowselection={handleSelection}>
+      </lightning-datatable>
+    </lightning-card>
+   
+
+</template>

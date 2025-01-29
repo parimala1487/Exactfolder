@@ -1,0 +1,25 @@
+<template>
+    
+<lightning-card title="Available Accounts">
+
+<div>
+<lightning-combobox label="Account List" value={value} placeholder="Select an account..." 
+                             options = {options}
+                             onchange={handleAccountChange}>
+</lightning-combobox>
+</div>
+</lightning-card>
+
+<template if:true={flag}>
+
+<lightning-card title="Related Contact">
+   <div>
+     <lightning-datatable key-field="Id" data={relatedContact} columns={columns}></lightning-datatable>
+
+   </div>
+
+</lightning-card>
+
+</template>
+
+</template>

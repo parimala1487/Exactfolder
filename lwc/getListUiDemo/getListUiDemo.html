@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="getListUi Adapter Demo">
+
+       
+   
+   
+   <template for:each={actRecord} for:item="eachRecord">
+      <br key={eachRecord.Id}>
+        Account: {eachRecord.fields.Account.displayValue}
+        Email: {eachRecord.fields.Email.value}
+        Name: {eachRecord.fields.Name.value}
+        Owner: {eachRecord.fields.Owner.displayValue}
+        Phone: {eachRecord.fields.Phone.value}
+      </template>
+
+    
+     
+
+    </lightning-card>
+    
+</template>

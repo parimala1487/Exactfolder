@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Get PicklistValues Demo">
+ 
+      <template if:true={pickListValuesResult.data}>
+
+<lightning-combobox name="Department" 
+                    label="Department"
+                    value={picklistvalue}
+                    onchange={handlePicklistValueChange}
+                    options ={pickListValuesResult.data.values}></lightning-combobox>
+
+
+      </template>                     
+    </lightning-card>
+</template>

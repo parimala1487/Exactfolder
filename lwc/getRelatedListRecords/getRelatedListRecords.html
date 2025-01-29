@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Get RelatedList Records Demo">
+
+        <template if:true={relatedListRecords}>
+<template for:each={relatedListRecords} for:item="eachRecord">
+
+    <p key={eachRecord.fields.Id.value}>{eachRecord.fields.Name.value}</p>
+</template>
+
+        </template>
+    </lightning-card>
+    
+</template>

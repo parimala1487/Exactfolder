@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="get a particular Related List Info Demo">
+
+      <template if:true={relatedListInfo}>
+        <template for:each={relatedListInfo} for:item="eachFieldName">
+          <p key={eachFieldName.fieldApiName}>{eachFieldName.label}</p>
+         </template>
+
+      </template>
+
+    </lightning-card>
+</template>

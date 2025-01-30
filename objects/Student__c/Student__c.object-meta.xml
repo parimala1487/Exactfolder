@@ -153,6 +153,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    
     <label>Student</label>
     <nameField>
         <label>Student Name</label>

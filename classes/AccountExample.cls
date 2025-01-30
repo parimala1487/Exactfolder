@@ -6,9 +6,9 @@ public class AccountExample {
         System.debug('This is the second line of code added');
         System.debug('Added to cpq1');
         System.debug('hello');
+        System.debug('target org as cpq1');
+        System.debug('move to target');
         System.debug('move to target');
      }
-
-     
 }
 

@@ -25,6 +25,7 @@ export default class BuildBasicForm extends LightningElement {
        },this);
 
        alert('Name:' +this.name +'Email:' +this.email+'Phone:' +this.phone);
+       console.log('added this line for copado CI job deploy --- u can delete it later');
     }
 
 

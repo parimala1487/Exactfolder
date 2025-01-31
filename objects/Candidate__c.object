@@ -163,6 +163,7 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    
     <fields>
         <fullName>Id__c</fullName>
         <externalId>false</externalId>
